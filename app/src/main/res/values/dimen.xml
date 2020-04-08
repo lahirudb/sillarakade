@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="hintText">12sp</dimen>
+    <dimen name="inputTitle">15sp</dimen>
+    <dimen name="title">18sp</dimen>
+
+
+    <dimen name="item_adapter_title">14sp</dimen>
+    <dimen name="item_adapter_desc">11sp</dimen>
+
+</resources>

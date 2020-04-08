@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/add_item"
+            android:enabled="true"
+            android:icon="@drawable/add_item"
+            android:title="@string/add_items_menudrawer"
+            android:visible="true" />
+
+
+        <item
+            android:id="@+id/get_from_agent"
+            android:enabled="true"
+            android:icon="@drawable/from_delivery"
+            android:title="@string/from_agent_menudrawer"
+            android:visible="true" />
+
+        <item
+            android:id="@+id/sell_items"
+            android:enabled="true"
+            android:icon="@drawable/ic_sell_items"
+            android:title="@string/sell_items_menudrawer"
+            android:visible="true" />
+
+    </group>
+
+    <group
+        >
+
+        <item
+            android:id="@+id/settings"
+            android:title="Settings"/>
+        <item
+            android:id="@+id/logout"
+            android:title="Logout"/>
+    </group>
+
+</menu>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/item_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:weightSum="4">
+
+        <TextView
+            android:id="@+id/stock_date"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Stock date"
+            android:layout_gravity="center"/>
+        <TextView
+            android:id="@+id/selling_price"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Selling price"
+            android:layout_gravity="center"/>
+        <TextView
+            android:id="@+id/available_units"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Available units"
+            android:layout_gravity="center"/>
+        <TextView
+            android:id="@+id/note"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Special note"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+</FrameLayout>

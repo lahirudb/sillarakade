@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorGreen">#008000</color>
+    <color name="colorBlue">#1674DF</color>
+    <color name="colorGrey">#A9A9A9</color>
+
+    <color name="transparent_moderate">#00000075</color>
+
+
+    <color name="bodyFontClor">#000000</color>
+    <color name="bodyListFontClor">#000000</color>
+    <color name="bodyHintFontColor">#696969</color>
+    <color name="bodyInsertTextColor">#000000</color>
+
+
+    <color name="bodyTitleTextColor">#000000</color>
+</resources>

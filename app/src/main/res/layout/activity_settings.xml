@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:weightSum="10">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="3"
+            android:orientation="horizontal"
+            android:background="@color/colorBlack"
+            android:layout_gravity="center_vertical"></LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Theme"
+            android:layout_weight="3"
+            android:textColor="@color/colorBlack"
+            android:textAlignment="center"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="4"
+            android:orientation="horizontal"
+            android:background="@color/colorBlack"
+            android:layout_gravity="center_vertical"></LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/theme_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal">
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/theme1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/design_default_color_primary"
+                android:checked="true"
+                android:padding="5dp"
+                android:text="Blue Theme"
+                android:textColor="@color/colorBlack"
+                android:visibility="visible" />
+
+            <RadioButton
+                android:id="@+id/theme2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pink Theme"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorAccent"
+                android:layout_marginTop="10dp"/>
+
+            <RadioButton
+                android:id="@+id/theme3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Green Theme"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorGreen"/>
+
+        </RadioGroup>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

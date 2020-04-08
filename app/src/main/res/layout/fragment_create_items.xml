@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="5dp"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="8dp">
+
+                <com.chivorn.smartmaterialspinner.SmartMaterialSpinner
+                    android:id="@+id/spinner1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:smsp_floatingLabelColor="#1976D2"
+                    app:smsp_hint="@string/search_item_caterogry"
+                    app:smsp_hintColor="@color/bodyHintFontColor"
+                    app:smsp_itemColor="#512DA8"
+                    app:smsp_itemListColor="#7C4DFF"
+                    app:smsp_itemListHintBackgroundColor="?attr/background"
+                    app:smsp_itemListHintColor="#FFFFFF"
+                    app:smsp_multilineError="false"
+                    app:smsp_selectedItemListColor="#FF5252"
+                    app:smsp_isSearchable="true"
+                    app:smsp_searchHeaderBackgroundColor="@color/colorWhite"
+                    app:smsp_enableSearchHeader="false"
+                    app:smsp_hintSize="@dimen/hintText"/>
+
+                <!--        <com.toptoche.searchablespinnerlibrary.SearchableSpinner-->
+                <!--            android:layout_width="match_parent"-->
+                <!--            android:layout_height="wrap_content" />-->
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="8dp">
+
+                <Button
+                    android:id="@+id/show_catergory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/bodyFontClor"
+                    android:text="@string/addCatergory"/>
+
+                <LinearLayout
+                    android:id="@+id/add_section"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="10"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/insert_catergory"
+                        android:layout_width="0dp"
+                        android:layout_weight="7"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/catergory_name"
+                        android:textColorHint="@color/bodyHintFontColor"
+                        android:textColor="@color/bodyInsertTextColor"/>
+
+                    <Button
+                        android:id="@+id/add_catergory"
+                        android:layout_width="0dp"
+                        android:layout_weight="3"
+                        android:layout_height="wrap_content"
+                        android:text="@string/add"
+                        android:textColor="@color/bodyFontClor"/>
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ItemName"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="@dimen/inputTitle"/>
+
+                <EditText
+                    android:id="@+id/itemname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Item Name"
+                    android:lines="1"
+                    android:maxLength="20"
+                    android:textSize="@dimen/hintText"
+                    android:textColor="@color/bodyInsertTextColor"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="8dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/unit"
+                    android:textColor="@color/bodyFontClor"
+                    android:textSize="@dimen/inputTitle"/>
+
+                <EditText
+                    android:id="@+id/unit"
+                    android:layout_width="match_parent"
+                    android:layout_weight="5"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/unit"
+                    android:textColorHint="@color/bodyHintFontColor"
+                    android:textColor="@color/bodyInsertTextColor"
+                    android:textSize="@dimen/hintText"
+                    android:inputType="textFilter"
+                    android:lines="1"
+                    android:maxLength="20"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:visibility="gone">
+
+
+
+
+                    <EditText
+                        android:id="@+id/price"
+                        android:layout_width="0dp"
+                        android:layout_weight="7"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/price_per_unit"
+                        android:textColorHint="@color/bodyHintFontColor"
+                        android:textColor="@color/bodyInsertTextColor"
+                        android:textSize="@dimen/hintText"
+                        android:inputType="numberDecimal"
+                        android:lines="1"
+                        android:maxLength="20"
+                        android:visibility="gone"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorGrey" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="10"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="5"
+                        android:layout_height="wrap_content"
+                        android:text="@string/availabel_unit"
+                        android:textColor="@color/bodyFontClor"/>
+
+                    <EditText
+                        android:id="@+id/available_quantity"
+                        android:layout_width="0dp"
+                        android:layout_weight="4"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:textColor="@color/bodyInsertTextColor"/>
+
+                    <TextView
+                        android:id="@+id/unit_a"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/unit"
+                        android:textColor="@color/bodyFontClor"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="10"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="5"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bought_price"
+                        android:textColor="@color/bodyFontClor"/>
+
+                    <EditText
+                        android:id="@+id/bought_price"
+                        android:layout_width="0dp"
+                        android:layout_weight="5"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:textColor="@color/bodyInsertTextColor"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="10"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="5"
+                        android:layout_height="wrap_content"
+                        android:text="@string/selling_price"
+                        android:textColor="@color/bodyFontClor"/>
+
+                    <EditText
+                        android:id="@+id/selling_price"
+                        android:layout_width="0dp"
+                        android:layout_weight="5"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:textColor="@color/bodyInsertTextColor"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="10"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="5"
+                        android:layout_height="wrap_content"
+                        android:text="@string/newstock_quantity"
+                        android:textColor="@color/bodyFontClor"/>
+
+                    <EditText
+                        android:id="@+id/newstock_quantity"
+                        android:layout_width="0dp"
+                        android:layout_weight="4"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:textColor="@color/bodyInsertTextColor"/>
+
+                    <TextView
+                        android:id="@+id/unit_b"
+                        android:layout_width="0dp"
+                        android:layout_weight="5"
+                        android:layout_height="wrap_content"
+                        android:text="@string/unit"
+                        android:textColor="@color/bodyFontClor"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/add_item_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/background"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/addItemBtn"
+                android:textColor="?attr/textColor"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</FrameLayout>

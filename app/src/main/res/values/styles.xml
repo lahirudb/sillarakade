@@ -1,0 +1,60 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="color">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimary">@color/colorAccent</item>
+    </style>
+
+
+    <style name="customActionBar" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="actionBarStyle">@color/colorAccent</item>
+        <item name="color">@color/colorAccent</item>
+        <item name="contentInsetStart">0dp</item>
+        <item name="contentInsetEnd">0dp</item>
+
+    </style>
+
+    <style name="blueTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="actionBarStyle">@color/design_default_color_primary_dark</item>
+        <item name="color">@color/design_default_color_primary</item>
+        <item name="contentInsetStart">0dp</item>
+        <item name="contentInsetEnd">0dp</item>
+        <item name="textColor">@color/colorWhite</item>
+        <item name="background">@color/colorBlue</item>
+        <item name="iconColor">@color/colorWhite</item>
+
+    </style>
+
+
+    <style name="AcentTheme">
+    <!-- Customize your theme here. -->
+    <item name="windowActionBar">true</item>
+    <item name="windowNoTitle">true</item>
+    <item name="titleEnabled">false</item>
+    <item name="actionBarPopupTheme">@color/colorAccent</item>
+    <item name="icon">@drawable/navigation_menu</item>
+    <item name="color">@color/colorAccent</item>
+    <item name="iconColor">@color/colorWhite</item>
+    <item name="textColor">@color/colorWhite</item>
+        <item name="background">@color/colorBlack</item>
+    <item name="actionBarStyle">@style/Widget.AppCompat.ActionBar</item>
+</style>
+
+    <style name="DarkTheme">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="titleEnabled">false</item>
+        <item name="actionBarPopupTheme">@color/design_default_color_primary</item>
+        <item name="icon">@drawable/navigation_menu</item>
+        <item name="color">@color/design_default_color_primary</item>
+        <item name="android:textColor">@color/colorGreen</item>
+        <item name="textColor">@color/colorGreen</item>
+    </style>
+
+</resources>

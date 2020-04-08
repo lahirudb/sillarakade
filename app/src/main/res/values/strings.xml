@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">SillaraKade</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--menu drawer-->
+    <string name="from_agent_menudrawer">Get From Agent</string>
+    <string name="add_items_menudrawer">Add Items</string>
+    <string name="sell_items_menudrawer">Sell Itemst</string>
+
+    <!--create item start-->
+    <string name="search_item_caterogry">Search item catergory</string>
+
+
+    <string name="price_per_unit">Price per unit</string>
+    <string name="unit">Weight Unit</string>
+    <string name="availabel_unit">Available Units</string>
+    <string name="bought_price">Bought price</string>
+    <string name="selling_price">Selling price</string>
+    <string name="newstock_quantity">New Stock Quantity</string>
+    <string name="ItemName">Item Name : </string>
+    <string name="addItemBtn">Add Item</string>
+    <string name="addCatergory">Add Catergory</string>
+    <string name="add">Add</string>
+    <string name="catergory_name">Type the catergory name</string>
+
+    //success msg
+    <string name="item_added_successfully">Item Added Successfully</string>
+    <string name="catergory_added_successfully">Catergory Added Successfully</string>
+
+    //errrors
+    <string name="error_item_exist">That Item Already Exist</string>
+    <string name="fill_required_field">Please Fill Required Fields</string>
+    <string name="item_adding_failed">Item adding failed</string>
+    <string name="catergory_adding_failed">Catergory adding failed</string>
+
+    <!--create item start-->
+
+    <!--From Agent start-->
+
+    //labels
+    <string name="last_ordered_date">Last Ordered date : </string>
+    <string name="available_units_frm_agent">Available Units : </string>
+    <string name="last_ordered_units">Last Orderd units : </string>
+    <string name="last_available_units">Last Available Units : </string>
+    <string name="new_order_quantity">New Order quantity</string>
+    <string name="selling_price_frm_agent">Selling Price</string>
+    <string name="new_order_unit_price">New order unit price</string>
+    <string name="buy">Buy</string>
+    <string name="price_sell_items">Price : </string>
+
+    //Toasts
+    <string name="stock_adding_success">Stock Added Successfully</string>
+
+
+    <!--Sell Items-->
+    <string name="no_stock_data">Stock is empty</string>
+    <string name="selected_stock_date_item_detail">Selected stock :</string>
+    <string name="number_of_unit_item_detail">Number of units : </string>
+    <string name="selling_price_per_unit_item_deteails">Selling price per unit : </string>
+    <string name="total_price_item_details">Total price : </string>
+    <string name="selected_stock_date">Selected stock :</string>
+
+    //toast messages
+    <string name="units_empty_item_details">Please enter units</string>
+    <string name="added_to_cart_item_details">Items added to the cart</string>
+    <string name="selling_item_success_item_details">Item selling success</string>
+    <string name="adding_to_cart_failed_item_details">Items adding to the cart failed</string>
+    <string name="selling_item_failed_item_details">Item selling failed</string>
+
+    <string name="individual_item_sell">%1$s %2$s sold successfully</string>
+    <string name="sell_limited_items_from_stock">you can sell only %1$s from this stock</string>
+
+
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    tools:showIn="@layout/app_main">
+
+
+<!--    <androidx.appcompat.widget.LinearLayoutCompat-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical">-->
+
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+<!--    </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+
+
+
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_marginStart="143dp"-->
+<!--        android:layout_marginTop="119dp"-->
+<!--        android:text="Hello World!cxvcxvsdsfsfdsfsdfdsfsdfdsfdsfdsfdsfdsfdsfdsf dsfdsf dsfdsfds fsdfdsfcxvcx fdgdfgfdgfdgfd"-->
+<!--        android:maxLines="2"-->
+<!--        android:ellipsize="marquee"-->
+<!--        android:singleLine="false"-->
+<!--        android:textColor="@color/colorAccent"/>-->
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatinc_action_btn"
+        android:layout_width="60dp"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="42dp"
+        android:layout_marginEnd="52dp"
+        android:clickable="true" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_orders"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="52dp"
+        android:clickable="true"
+        android:layout_above="@+id/floatinc_action_btn"
+        android:elevation="1dp"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/sales"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="52dp"
+        android:clickable="true"
+        android:layout_above="@+id/add_orders"
+        android:elevation="1dp"/>
+
+</RelativeLayout>

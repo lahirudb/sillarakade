@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="textSize" format="dimension"/>
+    <attr name="textColor" format="color"/>
+    <attr name="componentColor" format="color"/>
+    <attr name="iconColor" format="color"/>
+
+</resources>
